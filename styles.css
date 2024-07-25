@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black; /* Set the background color for the entire page */
+    
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color:white; /* Set the background color for the game board */
+    margin-left:585px;
+    margin-right: 585px; 
+    margin-top: 100px;
+    
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+  
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: white;
+    margin-left:580px;
+    margin-right: 580px;
+   
+}
+
+
+
+.background_image {
+    width: 100px;
+    height: 100px;
+
+}
+
+

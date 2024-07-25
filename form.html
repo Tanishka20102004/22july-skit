@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .form-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .button{
+            justify-content: center;
+            align-items: center;
+        }
+        .form-box input[type="submit"]:hover {
+            background-color:darkgoldenrod;
+        }
+
+
+        </style>
+</head>
+<body>
+    <div class="form-box">
+    <form actions="/abc/" method="get" > 
+        <label for="">Name:</label><br>
+        <input type="text"  name="myname" placeholder="Enter Your Name"/><br><br>
+        <lable for="">Password:</lable> <br>
+        <input type="Password"/><br><br>
+        <label for="email"> Email:</label><br>
+        <input type="Email" placeholder="Enter your Email"><br><br>
+        <label for="">Gender:</label><br>
+        <input type="radio" name="gender"> Female <br>
+        <input type="radio" name="gender"> Male <br><br><br>
+        <label for="">Languages:</label><br>
+        <input type="checkbox">Hindi<br>
+        <input type="checkbox">English<br>
+        <input type="checkbox">Marwadi<br>
+        <input type="checkbox">other<br><br>
+        <label for="">City:</label><br>
+        <select name="" id="">
+         <option value="">None</option>
+         <option value="">Jaipur</option>
+         <option value="">Jodhpur</option>
+         <option value="">kota</option>
+         <option value="">other</option>
+     
+        </select></br><br><br>
+        <label for="">Date:</label><br>
+        <input type="date"><br><br><br>
+        <textarea name="" id="" rows="10" cols="30" placeholder="enter your message"></textarea><br><br>
+        
+
+       
+        <button onclick="window.open('https://www.meesho.com/dresses-women/pl/3j3', '_blank')">Submit</button>
+
+        
+       
+       
+    </div>
+
+     </form>
+     
+     <script>
+        //   document.write("javascript")
+          document.getElementById("onclick").onclick=function()
+          {
+           alert("Submit")
+          }
+   
+       </script>
+</body>
+</html>
